@@ -1392,6 +1392,9 @@ python-serial:
   arch: [python2-pyserial]
   debian: [python-serial]
   fedora: [pyserial]
+  osx:
+    pip:
+      packages: [pyserial]
   ubuntu:
     lucid: [python-serial]
     maverick: [python-serial]
